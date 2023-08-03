@@ -1,8 +1,8 @@
 import { data } from "./data.js"
 
 
-  /*  let maiin  = document.querySelector("#main");
-    export let caja_descripcion = ""
+    let maiin  = document.querySelector("#main");
+    export let caja_descrip = ""
 
 data.forEach((cada_item) => {
 
@@ -19,23 +19,18 @@ data.forEach((cada_item) => {
     `;
     maiin.appendChild(caja_descripcion);
 
-});*/
+});
 
 
 export let caja_descripcion = `
 
-        <p>Holaaaa</p>
+        
         
            
 
 `
 
-/*********
- * <div class="cajaimg" >
-            <img class="Grafico" src="${cada_item.img}" alt="">
-        </div>           
-            <h2>${cada_item.titulo}</h2>
-            <p>${cada_item.descripcion}</p>
-            <span>Q. ${cada_item.precio}</span> 
- * **** */
+
+
+ 
 
