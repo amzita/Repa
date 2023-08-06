@@ -2,46 +2,109 @@
     max-width: 130rem;
     padding: 5rem;
     margin: auto;
-   
+}
+
+.base{
+    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;    
+    padding: 1rem;
+}
+
+.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:  1rem;
+    width: 40%;
+    object-fit: contain;
+    padding-right: 3rem;
+    padding-left: 1rem;
+}
+.imagen{
+    height: 70%;
+    width: 80%;
 
 }
-.one{
-    display: flex;
-    justify-content: space-around;
+
+.cajota{
+    width: 60%;
+    height: auto;
+    padding: 1rem;
 }
-.two{
-    padding-left: 5rem;
+
+.titulo_principal{
+    color: rgb(0, 0, 0);
+    font-size: 4.5rem;
 }
-.contenedor_img{
-    height: 25rem;
-    width: 25rem;
-    
+
+.descripciones{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
-.contenedor_img img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-.contenedor_texto{
-    width: 35rem;
-    align-self: center;
-}
-.contenedor_texto span{
-    font-size: 3rem;
-    font-weight: 600;
-}
-.contenedor_texto p {
-    font-size: 2rem;
-}
-.contenedor_texto h2{
-    font-size: 3rem;
-}
-.two h4{
-    font-size: 2rem;
-}
-.two ul{
+
+.lista{
     font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
+
+.precios{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+/* Estilos para el contenedor del precio */
+.precio {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el botón de precio */
+  .precio-valor {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .precio-valor:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para el botón de comprar */
+.comprar-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .comprar-btn:hover {
+    background-color: #219b53;
+  }
+/* Estilos para los títulos */
+.titulo_principal {
+    font-size: 28px;
+  }
+  
+  /* Estilos para las descripciones */
+  .descripciones {
+    font-size: 18px;
+  }
+  
+  /* Estilos para las listas */
+  .lista {
+    font-size: 16px;
+  }
+  
+  /* Resto de tus estilos... */
+  

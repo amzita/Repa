@@ -134,7 +134,7 @@ export let data = [
     },
     {
       titulo: "Configuración de red doméstica",
-      img: "https://example.com/configuracion_red_domestica.jpg",
+      img: "https://www.redeszone.net/app/uploads-redeszone.net/2022/03/configurar-tu-red-01.jpg",
       descripcion: "Cómo configurar una red doméstica",
       herramientas: [
         "Router inalámbrico",
@@ -156,7 +156,7 @@ export let data = [
     },
     {
       titulo: "Instalación de software antivirus",
-      img: "https://example.com/instalacion_antivirus.jpg",
+      img: "https://seguidores.online/wp-content/uploads/2020/11/Como-instalar-un-antivirus-9-1024x614.jpg",
       descripcion: "Cómo instalar software antivirus en una computadora",
       herramientas: [
         "Disco de instalación del software antivirus",
@@ -177,7 +177,7 @@ export let data = [
     },
     {
       titulo: "Configuración de impresora",
-      img: "https://example.com/configuracion_impresora.jpg",
+      img: "https://descubrecomohacerlo.com/wp-content/uploads/mch/configurar-impresora_2735.jpg",
       descripcion: "Cómo configurar una impresora en una computadora",
       herramientas: [
         "Impresora con cable USB o inalámbrica",
@@ -196,7 +196,7 @@ export let data = [
     },
     {
       titulo: "Recuperación de datos de disco duro dañado",
-      img: "https://example.com/recuperacion_datos_disco_duro.jpg",
+      img: "https://www.ondata.es/img/recuperacion/discos/recuperar-datos-disco-duro.jpg",
       descripcion: "Cómo recuperar datos de un disco duro dañado",
       herramientas: [
         "Caja de disco duro externo",
@@ -217,6 +217,6 @@ export let data = [
         "Verifica que los archivos recuperados estén en buen estado y que no falte información importante.",
       ],
     },
-    // Puedes seguir agregando más objetos de datos aquí...
+    // Principal de los productos
   ];
   

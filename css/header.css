@@ -1,61 +1,56 @@
 #header{
-    background-color: rgb(255, 236, 175);
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     padding: 2rem 5rem;
 }
+
 #header h2{
     font-size: 2.5rem;
 }
+
 #header ul{
     list-style: none;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+
     display: flex;
-    gap: 1rem;
+    gap: 1rem; 
 }
+
 #header ul li{
-    background-color: rgb(183, 212, 103);
+    background-color: rgb(243, 208, 168);
     padding: 1rem 2rem;
-    border-radius: 0.5rem;
+    border-radius: 3px;
     cursor: pointer;
 }
 
-#header ul li:hover {
-    background-color: rgb(0, 126, 84);
-    color: rgb(216, 135, 135);
+#header ul li:hover{
+    background-color: rgb(216, 207, 124);
+    color: rgb(73, 163, 204);
     transition: 0.3s;
 }
 
-
 @media screen and (max-width: 800px){
     #header{
+
         flex-direction: column;
-        align-items: center;
+        align-items: center;/*izquierda derecha*/
+        /* justifi-content: --- de abajo y arriba*/
         gap: 2rem;
         padding: 2rem 1rem;
     }
+
     #header ul{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
         gap: 1rem;
     }
-    #header li{
-        text-align: center;   
-    }
-    
 }
-@media screen and (max-width: 375px){
-   
+
+@media screen and (max-width: 380px){
+
     #header ul{
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 1rem;
     }
-    #header li{
-        text-align: center;   
-    }
-    
 }
