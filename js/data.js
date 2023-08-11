@@ -1,5 +1,6 @@
 export let data = [
     {
+      id:"1",
       titulo: "Cambio de pasta térmica",
       img: "https://www.opirata.com/blog/wp-content/uploads/2019/04/pasta-termica.jpg",
       descripcion: "Cómo cambiar la pasta térmica del procesador",
@@ -23,6 +24,7 @@ export let data = [
       ],
     },
     {
+      id:"2",
       titulo: "Reemplazo de batería de portátil",
       img: "https://sistemas.com/wp-content/uploads/2014/08/bateria_newertech_3.jpg",
       descripcion: "Cómo reemplazar la batería de un portátil",
@@ -44,6 +46,7 @@ export let data = [
       ],
     },
     {
+      id:"3",
       titulo: "Limpieza de ventiladores de PC",
       img: "https://www.reviewhardware.com/wp-content/uploads/2018/11/Limpiar-ventiladores-PC.jpg",
       descripcion: "Cómo limpiar los ventiladores de un PC",
@@ -65,6 +68,7 @@ export let data = [
       ],
     },
     {
+      id:"4",
       titulo: "Formateo e instalación de sistema operativo",
       img: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2017/05/239118-formatear-disco-duro-instalar-windows-problema-formato-ntfs.jpg?tf=3840x",
       descripcion: "Cómo formatear e instalar un sistema operativo",
@@ -88,6 +92,7 @@ export let data = [
       ],
     },
     {
+      id:"5",
       titulo: "Instalación de memoria RAM",
       img: "https://www.digitaltoo.com/wp-content/uploads/sites/3/2021/04/Cambiar-memoria-RAM-1-1080x770.jpg",
       descripcion: "Cómo instalar memoria RAM en un PC",
@@ -108,6 +113,7 @@ export let data = [
       ],
     },
     {
+      id:"6",
       titulo: "Reemplazo de pantalla de smartphone",
       img: "https://recambiostablet.com/blog/wp-content/uploads/2019/08/precio-cambiar-pantalla-del-movil.jpg",
       descripcion: "Cómo reemplazar la pantalla de un smartphone",
@@ -133,6 +139,7 @@ export let data = [
       ],
     },
     {
+      id:"7",
       titulo: "Configuración de red doméstica",
       img: "https://www.redeszone.net/app/uploads-redeszone.net/2022/03/configurar-tu-red-01.jpg",
       descripcion: "Cómo configurar una red doméstica",
@@ -155,6 +162,7 @@ export let data = [
       ],
     },
     {
+      id:"8",
       titulo: "Instalación de software antivirus",
       img: "https://seguidores.online/wp-content/uploads/2020/11/Como-instalar-un-antivirus-9-1024x614.jpg",
       descripcion: "Cómo instalar software antivirus en una computadora",
@@ -176,6 +184,7 @@ export let data = [
       ],
     },
     {
+      id:"9",
       titulo: "Configuración de impresora",
       img: "https://descubrecomohacerlo.com/wp-content/uploads/mch/configurar-impresora_2735.jpg",
       descripcion: "Cómo configurar una impresora en una computadora",
@@ -195,6 +204,7 @@ export let data = [
       ],
     },
     {
+      id:"10",
       titulo: "Recuperación de datos de disco duro dañado",
       img: "https://www.ondata.es/img/recuperacion/discos/recuperar-datos-disco-duro.jpg",
       descripcion: "Cómo recuperar datos de un disco duro dañado",

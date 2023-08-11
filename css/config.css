@@ -8,3 +8,6 @@ html {
     font-size: 10px;
     font-family: monospace;
 }
+.ocultar{
+    display: none;
+}

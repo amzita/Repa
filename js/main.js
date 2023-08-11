@@ -19,17 +19,33 @@ data.forEach((cada_item) => {
 });
 
 let productos = document.querySelectorAll(".item");
+let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
 
 function mostrarDescripcion(event) {
-  let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
+  caja_descripcion_DOM.innerHTML = '';
 
   let index = Array.from(productos).indexOf(event.currentTarget);
 
   let productDescriptionHTML = descripcion(data, index);
   caja_descripcion_DOM.innerHTML = productDescriptionHTML;
+
+  // Ocultar todos los productos
+  productos.forEach((producto) => {
+    producto.style.display = "none";
+  });
 }
 
 productos.forEach((cada_elemento) => {
   cada_elemento.addEventListener("click", mostrarDescripcion);
 });
+
+/**-------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
 

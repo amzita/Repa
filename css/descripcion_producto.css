@@ -1,8 +1,11 @@
 .descripcion_del_producto{
-    max-width: 130rem;
-    padding: 5rem;
-    margin: auto;
+  max-width: 130rem;
+  padding: 5rem;
+  margin: auto;
+  margin-top: 2rem; 
+  margin-bottom: 2rem; 
 }
+
 
 .base{
     height: auto;
@@ -91,6 +94,20 @@
   .comprar-btn:hover {
     background-color: #219b53;
   }
+  .agalo {
+    background-color: #7fae27;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .agalo:hover {
+    background-color: #8f9b21;
+  }
 /* Estilos para los títulos */
 .titulo_principal {
     font-size: 28px;
@@ -107,4 +124,4 @@
   }
   
   /* Resto de tus estilos... */
-  
+
