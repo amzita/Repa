@@ -1,29 +1,52 @@
-export function descripcion(data, index) {
-  const service = data[index];
+import { data } from "./data.js";
 
+export function descripcion(id) {
+
+  let producto = id - 1;
+
+  let contenido=
+     `
+      <div class="cajota">
+        <section class="cajota1">
+          <img class="imagenes" src="${data[producto].img}" alt="${data[producto].titulo}">
+        </section>
   
-  const isUserFriendly = service.herramientas.length <= 3;
+        <section class="cajota2">
+          <h1 class="titulo_principal">${data[producto].titulo}</h1>
+          <h2 class="descripciones">${data[producto].descripcion}</h2>
+        
+          <section class="caja_bot">
+          <button class="button1"> Compra </button>
+          ${
+            data[producto].estado
+              ? '<button class="button"> Hágalo Tu ahora.</button>'
+              : ''
+          }
+        </section>
 
-  return `
-    <div class="base">
-      <section class="cajita">
-        <img class="imagen" src="${service.img}" alt="${service.titulo}">
-      </section>
 
-      <section class="cajota">
-        <h1 class="titulo_principal">${service.titulo}</h1>
-        <h2 class="descripciones">${service.descripcion}</h2>
-        <div class="precios">
-          <button class="precio-valor">Q100.00</button>
-          <button class="comprar-btn">Comprar</button>
-          ${isUserFriendly ? '<button class="agalo">Hágalo usted mismo</button>' : ''}
-        </div>
-        <ul class="lista">Herramientas: ${service.herramientas.map(herramienta => `<li>${herramienta}</li>`).join("")}</ul>
-        <ul class="lista">Pasos: ${service.pasos.map(pasos => `<li>${pasos}</li>`).join("")}</ul>
-      </section>
-    </div>
-  `;
-}
+
+          <span class="precio">Q100.00</span>
+
+          </section>
+
+
+      </div>
+    `;
+    
+
+    return contenido;
+  }
+  
+
+
+
+
+
+
+
+
+
 
 
   

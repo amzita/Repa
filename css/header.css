@@ -17,14 +17,14 @@
 }
 
 #header ul li{
-    background-color: rgb(243, 208, 168);
+    background-color: rgb(168, 200, 243);
     padding: 1rem 2rem;
     border-radius: 3px;
     cursor: pointer;
 }
 
 #header ul li:hover{
-    background-color: rgb(216, 207, 124);
+    background-color: rgb(168, 200, 243);;
     color: rgb(73, 163, 204);
     transition: 0.3s;
 }
